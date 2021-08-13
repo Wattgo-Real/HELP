@@ -31,7 +31,7 @@ Shader "HLSL/Lit"
             float4 positionOS:POSITION;
             float4 normalOS:NORMAL;
             float2 texcoord:TEXCOORD;
-            UNITY_VERTEX_INPUT_INSTANCE_ID
+            UNITY_VERTEX_INPUT_INSTANCE_ID 
         };
 
         struct v2f
