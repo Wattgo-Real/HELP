@@ -23,8 +23,6 @@ public class DrawMeshInstancedIndirect : MonoBehaviour
 
     public Mesh mesh;
 
-    // Mesh Properties struct to be read from the GPU.
-    // Size() is a convenience funciton which returns the stride of the struct.
     private struct MeshProperties
     {
         public Matrix4x4 mat;
